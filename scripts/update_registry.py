@@ -1,27 +1,13 @@
 import json
 import os
-import time
-import urllib.request
-import urllib.parse
+import subprocess
 from datetime import datetime, timezone
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
-
-def github_get(url, retries=3):
-    for attempt in range(retries):
-        try:
-            req = urllib.request.Request(url)
-            req.add_header("User-Agent", "SkillDeck-Registry-Bot/1.0")
-            req.add_header("Accept", "application/vnd.github+json")
-            if GITHUB_TOKEN:
-                req.add_header("Authorization", f"Bearer {GITHUB_TOKEN}")
-            with urllib.request.urlopen(req, timeout=15) as response:
-                return json.loads(response.read().decode("utf-8"))
-        except Exception as e:
-            if attempt < retries - 1:
-                time.sleep(2 * (attempt + 1))
-            else:
-                raise e
+def run_gh_api(endpoint):
+    # GitHub CLI (gh) kullanarak yerel ağ/proxy ve token ayarlarıyla doğrudan istek atar
+    cmd = ["gh", "api", endpoint]
+    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+    return json.loads(result.stdout)
 
 def discover_github_skills():
     queries = [
@@ -31,12 +17,20 @@ def discover_github_skills():
     discovered = {}
     
     for q in queries:
-        # safe="" parametresi ':' ve '>=' karakterlerini güvenli şekilde encode eder
-        encoded_q = urllib.parse.quote(q, safe="")
-        url = f"https://github.com{encoded_q}&sort=stars&order=desc&per_page=50"
         try:
-            res = github_get(url)
-            for item in res.get("items", []):
+            # gh api -X GET search/repositories -f q="..." -f sort=stars ...
+            cmd = [
+                "gh", "api", "-X", "GET", "search/repositories",
+                "-f", f"q={q}",
+                "-f", "sort=stars",
+                "-f", "order=desc",
+                "-f", "per_page=50"
+            ]
+            result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+            res = json.loads(result.stdout)
+            
+            items = res.get("items", [])
+            for item in items:
                 full_name = item["full_name"]
                 if full_name not in discovered:
                     discovered[full_name] = {
@@ -53,9 +47,11 @@ def discover_github_skills():
                         "command": f"npx skills add {full_name}",
                         "tags": item.get("topics", [])[:5] or ["community"]
                     }
-            print(f"Keşif başarılı ({q}): {len(res.get('items', []))} repo bulundu.")
+            print(f"Keşif başarılı ({q}): {len(items)} repo bulundu.")
+        except subprocess.CalledProcessError as e:
+            print(f"Arama hatası ({q}): {e.stderr}")
         except Exception as e:
-            print(f"Arama hatası ({q}): {e}")
+            print(f"Beklenmeyen hata ({q}): {e}")
             
     return discovered
 
@@ -72,7 +68,7 @@ def main():
         for item in sources:
             full_name = f"{item['owner']}/{item['repo']}"
             try:
-                data = github_get(f"https://github.com{full_name}")
+                data = run_gh_api(f"repos/{full_name}")
                 skills_map[full_name] = {
                     **item,
                     "name": data.get("name"),
@@ -83,6 +79,8 @@ def main():
                     "license": (data.get("license") or {}).get("spdx_id", "MIT")
                 }
                 print(f"Özel repo eklendi: {full_name} (⭐ {data.get('stargazers_count', 0)})")
+            except subprocess.CalledProcessError as e:
+                print(f"Özel repo hatası ({full_name}): {e.stderr.strip()}")
             except Exception as e:
                 print(f"Özel repo hatası ({full_name}): {e}")
 
