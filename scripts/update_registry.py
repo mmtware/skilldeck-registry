@@ -1,22 +1,29 @@
 import json
 import os
+import time
 import urllib.request
 import urllib.parse
 from datetime import datetime, timezone
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
-def github_get(url):
-    req = urllib.request.Request(url)
-    req.add_header("User-Agent", "SkillDeck-Registry-Bot")
-    req.add_header("Accept", "application/vnd.github+json")
-    if GITHUB_TOKEN:
-        req.add_header("Authorization", f"Bearer {GITHUB_TOKEN}")
-    with urllib.request.urlopen(req) as response:
-        return json.loads(response.read().decode())
+def github_get(url, retries=3):
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url)
+            req.add_header("User-Agent", "SkillDeck-Registry-Bot/1.0")
+            req.add_header("Accept", "application/vnd.github+json")
+            if GITHUB_TOKEN:
+                req.add_header("Authorization", f"Bearer {GITHUB_TOKEN}")
+            with urllib.request.urlopen(req, timeout=15) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except Exception as e:
+            if attempt < retries - 1:
+                time.sleep(2 * (attempt + 1))
+            else:
+                raise e
 
 def discover_github_skills():
-    # GitHub'da agent-skills etiketli veya SKILL.md içeren en popüler 100 repoyu bulur
     queries = [
         "topic:agent-skills stars:>=10",
         "\"SKILL.md\" in:readme,path stars:>=25"
@@ -24,7 +31,8 @@ def discover_github_skills():
     discovered = {}
     
     for q in queries:
-        encoded_q = urllib.parse.quote(q)
+        # safe="" parametresi ':' ve '>=' karakterlerini güvenli şekilde encode eder
+        encoded_q = urllib.parse.quote(q, safe="")
         url = f"https://github.com{encoded_q}&sort=stars&order=desc&per_page=50"
         try:
             res = github_get(url)
@@ -45,6 +53,7 @@ def discover_github_skills():
                         "command": f"npx skills add {full_name}",
                         "tags": item.get("topics", [])[:5] or ["community"]
                     }
+            print(f"Keşif başarılı ({q}): {len(res.get('items', []))} repo bulundu.")
         except Exception as e:
             print(f"Arama hatası ({q}): {e}")
             
@@ -53,10 +62,10 @@ def discover_github_skills():
 def main():
     skills_map = {}
 
-    # 1. Otomatik GitHub keşfini çalıştır (Yüzlerce repoyu otomatik çeker)
+    # 1. Otomatik GitHub keşfini çalıştır
     skills_map.update(discover_github_skills())
 
-    # 2. Sizin sources.json içindeki özel/küratörlü listenizi üzerine yaz (öncelikli)
+    # 2. Özel kaynak listesini ekle/güncelle
     if os.path.exists("sources.json"):
         with open("sources.json", "r", encoding="utf-8") as f:
             sources = json.load(f)
@@ -73,6 +82,7 @@ def main():
                     "html_url": data.get("html_url"),
                     "license": (data.get("license") or {}).get("spdx_id", "MIT")
                 }
+                print(f"Özel repo eklendi: {full_name} (⭐ {data.get('stargazers_count', 0)})")
             except Exception as e:
                 print(f"Özel repo hatası ({full_name}): {e}")
 
