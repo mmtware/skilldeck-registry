@@ -1,6 +1,1692 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T19:39:22.390508+00:00",
-  "total_count": 0,
-  "skills": []
+  "updated_at": "2026-11-15T19:40:57.301502+00:00",
+  "total_count": 87,
+  "skills": [
+    {
+      "id": "morluto-rea",
+      "owner": "morluto",
+      "repo": "rea",
+      "name": "rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "stars": 461607,
+      "last_pushed": "2026-11-15T19:40:46Z",
+      "html_url": "https://github.com/morluto/rea",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add morluto/rea",
+      "tags": [
+        "agent-skills",
+        "ai",
+        "android",
+        "claude-code",
+        "cli"
+      ]
+    },
+    {
+      "id": "obra-superpowers",
+      "owner": "obra",
+      "repo": "superpowers",
+      "install_method": "npx",
+      "command": "npx skills add obra/superpowers",
+      "tags": [
+        "workflow",
+        "tdd",
+        "planning"
+      ],
+      "name": "superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars": 317994,
+      "last_pushed": "2026-11-03T23:24:58Z",
+      "html_url": "https://github.com/obra/superpowers",
+      "license": "MIT"
+    },
+    {
+      "id": "affaan-m-ecc",
+      "owner": "affaan-m",
+      "repo": "ECC",
+      "name": "ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars": 303728,
+      "last_pushed": "2026-11-15T06:48:46Z",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add affaan-m/ECC",
+      "tags": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ]
+    },
+    {
+      "id": "firecrawl-firecrawl",
+      "owner": "firecrawl",
+      "repo": "firecrawl",
+      "name": "firecrawl",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "stars": 202016,
+      "last_pushed": "2026-11-15T13:01:57Z",
+      "html_url": "https://github.com/firecrawl/firecrawl",
+      "license": "AGPL-3.0",
+      "install_method": "npx",
+      "command": "npx skills add firecrawl/firecrawl",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search"
+      ]
+    },
+    {
+      "id": "anthropic-skills",
+      "owner": "anthropics",
+      "repo": "skills",
+      "install_method": "npx",
+      "command": "npx skills add anthropics/skills",
+      "tags": [
+        "official",
+        "claude",
+        "general"
+      ],
+      "name": "skills",
+      "description": "Public repository for Agent Skills",
+      "stars": 195268,
+      "last_pushed": "2026-11-14T21:52:49Z",
+      "html_url": "https://github.com/anthropics/skills",
+      "license": "MIT"
+    },
+    {
+      "id": "dietrichgebert-ponytail",
+      "owner": "DietrichGebert",
+      "repo": "ponytail",
+      "name": "ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "stars": 191344,
+      "last_pushed": "2026-10-29T11:59:31Z",
+      "html_url": "https://github.com/DietrichGebert/ponytail",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add DietrichGebert/ponytail",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin"
+      ]
+    },
+    {
+      "id": "msitarzewski-agency-agents",
+      "owner": "msitarzewski",
+      "repo": "agency-agents",
+      "name": "agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "stars": 168526,
+      "last_pushed": "2026-11-09T00:27:04Z",
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add msitarzewski/agency-agents",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "github-spec-kit",
+      "owner": "github",
+      "repo": "spec-kit",
+      "install_method": "uvx",
+      "command": "uvx --from git+https://github.com specify init",
+      "tags": [
+        "official",
+        "spec-driven",
+        "architecture"
+      ],
+      "name": "spec-kit",
+      "description": "💫 Toolkit to help you get started with SDD or any other process!",
+      "stars": 149918,
+      "last_pushed": "2026-11-12T21:54:10Z",
+      "html_url": "https://github.com/github/spec-kit",
+      "license": "MIT"
+    },
+    {
+      "id": "graphify-labs-graphify",
+      "owner": "Graphify-Labs",
+      "repo": "graphify",
+      "name": "graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "stars": 148301,
+      "last_pushed": "2026-11-15T18:11:31Z",
+      "html_url": "https://github.com/Graphify-Labs/graphify",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add Graphify-Labs/graphify",
+      "tags": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis"
+      ]
+    },
+    {
+      "id": "harry0703-moneyprinterturbo",
+      "owner": "harry0703",
+      "repo": "MoneyPrinterTurbo",
+      "name": "MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "stars": 143771,
+      "last_pushed": "2026-11-13T15:14:28Z",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add harry0703/MoneyPrinterTurbo",
+      "tags": [
+        "ai-video-generator",
+        "content-creation",
+        "ffmpeg",
+        "instagram-reels",
+        "llm"
+      ]
+    },
+    {
+      "id": "addyosmani-agent-skills",
+      "owner": "addyosmani",
+      "repo": "agent-skills",
+      "name": "agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars": 117864,
+      "last_pushed": "2026-11-14T04:33:56Z",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add addyosmani/agent-skills",
+      "tags": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor"
+      ]
+    },
+    {
+      "id": "leonxlnx-taste-skill",
+      "owner": "Leonxlnx",
+      "repo": "taste-skill",
+      "name": "taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "stars": 116103,
+      "last_pushed": "2026-11-08T21:51:50Z",
+      "html_url": "https://github.com/Leonxlnx/taste-skill",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add Leonxlnx/taste-skill",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "anti-slop",
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "id": "paperclipai-paperclip",
+      "owner": "paperclipai",
+      "repo": "paperclip",
+      "name": "paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "stars": 114108,
+      "last_pushed": "2026-11-15T18:54:27Z",
+      "html_url": "https://github.com/paperclipai/paperclip",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add paperclipai/paperclip",
+      "tags": [
+        "acpx",
+        "agent-orchestration",
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "pbakaus-impeccable",
+      "owner": "pbakaus",
+      "repo": "impeccable",
+      "name": "impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "stars": 110654,
+      "last_pushed": "2026-11-15T18:35:40Z",
+      "html_url": "https://github.com/pbakaus/impeccable",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add pbakaus/impeccable",
+      "tags": [
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
+      ]
+    },
+    {
+      "id": "nexu-io-open-design",
+      "owner": "nexu-io",
+      "repo": "open-design",
+      "name": "open-design",
+      "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+      "stars": 107749,
+      "last_pushed": "2026-11-15T04:31:27Z",
+      "html_url": "https://github.com/nexu-io/open-design",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add nexu-io/open-design",
+      "tags": [
+        "agent-skills",
+        "ai-design",
+        "byok",
+        "claude-code-for-design",
+        "claude-design"
+      ]
+    },
+    {
+      "id": "punkpeye-awesome-mcp-servers",
+      "owner": "punkpeye",
+      "repo": "awesome-mcp-servers",
+      "name": "awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "stars": 97735,
+      "last_pushed": "2026-11-06T17:59:03Z",
+      "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add punkpeye/awesome-mcp-servers",
+      "tags": [
+        "ai",
+        "mcp"
+      ]
+    },
+    {
+      "id": "tt-a1i-archify",
+      "owner": "tt-a1i",
+      "repo": "archify",
+      "name": "archify",
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "stars": 96726,
+      "last_pushed": "2026-11-15T14:28:43Z",
+      "html_url": "https://github.com/tt-a1i/archify",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add tt-a1i/archify",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "architecture-diagram",
+        "claude-code",
+        "claude-skills"
+      ]
+    },
+    {
+      "id": "lobehub-lobehub",
+      "owner": "lobehub",
+      "repo": "lobehub",
+      "name": "lobehub",
+      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+      "stars": 85570,
+      "last_pushed": "2026-11-15T19:38:41Z",
+      "html_url": "https://github.com/lobehub/lobehub",
+      "license": "NOASSERTION",
+      "install_method": "npx",
+      "command": "npx skills add lobehub/lobehub",
+      "tags": [
+        "agent",
+        "agent-collaboration",
+        "agent-harness",
+        "loop-engineering",
+        "mcp"
+      ]
+    },
+    {
+      "id": "opendatalab-mineru",
+      "owner": "opendatalab",
+      "repo": "MinerU",
+      "name": "MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "stars": 83701,
+      "last_pushed": "2026-11-13T14:03:28Z",
+      "html_url": "https://github.com/opendatalab/MinerU",
+      "license": "NOASSERTION",
+      "install_method": "npx",
+      "command": "npx skills add opendatalab/MinerU",
+      "tags": [
+        "ai4science",
+        "document-analysis",
+        "docx",
+        "extract-data",
+        "layout-analysis"
+      ]
+    },
+    {
+      "id": "career-ops-hq-career-ops",
+      "owner": "career-ops-hq",
+      "repo": "career-ops",
+      "name": "career-ops",
+      "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
+      "stars": 82746,
+      "last_pushed": "2026-11-15T18:29:14Z",
+      "html_url": "https://github.com/career-ops-hq/career-ops",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add career-ops-hq/career-ops",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "ai-job-search",
+        "ats",
+        "career"
+      ]
+    },
+    {
+      "id": "composiohq-awesome-claude-skills",
+      "owner": "ComposioHQ",
+      "repo": "awesome-claude-skills",
+      "name": "awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "stars": 79571,
+      "last_pushed": "2026-09-18T07:16:11Z",
+      "html_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add ComposioHQ/awesome-claude-skills",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "automation",
+        "claude"
+      ]
+    },
+    {
+      "id": "rohitg00-ai-engineering-from-scratch",
+      "owner": "rohitg00",
+      "repo": "ai-engineering-from-scratch",
+      "name": "ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+      "stars": 79037,
+      "last_pushed": "2026-11-15T14:21:10Z",
+      "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add rohitg00/ai-engineering-from-scratch",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "hugohe3-ppt-master",
+      "owner": "hugohe3",
+      "repo": "ppt-master",
+      "name": "ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "stars": 77154,
+      "last_pushed": "2026-11-15T05:57:39Z",
+      "html_url": "https://github.com/hugohe3/ppt-master",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add hugohe3/ppt-master",
+      "tags": [
+        "ai-agent",
+        "aippt",
+        "office",
+        "powerpoint",
+        "powerpoint-generation"
+      ]
+    },
+    {
+      "id": "usestrix-strix",
+      "owner": "usestrix",
+      "repo": "strix",
+      "name": "strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "stars": 75728,
+      "last_pushed": "2026-11-13T17:24:43Z",
+      "html_url": "https://github.com/usestrix/strix",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add usestrix/strix",
+      "tags": [
+        "agents",
+        "ai-hacking",
+        "ai-penetration-testing",
+        "ai-pentesting",
+        "ai-security"
+      ]
+    },
+    {
+      "id": "thedaviddias-front-end-checklist",
+      "owner": "thedaviddias",
+      "repo": "Front-End-Checklist",
+      "name": "Front-End-Checklist",
+      "description": "🗂 The essential checklist for modern web development, for humans and AI agents",
+      "stars": 74746,
+      "last_pushed": "2026-10-31T05:44:22Z",
+      "html_url": "https://github.com/thedaviddias/Front-End-Checklist",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add thedaviddias/Front-End-Checklist",
+      "tags": [
+        "ai-agent",
+        "ai-agents",
+        "checklist",
+        "css",
+        "front-end-developer-tool"
+      ]
+    },
+    {
+      "id": "cloudflare-security-audit-skill",
+      "owner": "cloudflare",
+      "repo": "security-audit-skill",
+      "name": "security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "stars": 73097,
+      "last_pushed": "2026-09-14T19:29:02Z",
+      "html_url": "https://github.com/cloudflare/security-audit-skill",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add cloudflare/security-audit-skill",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "ai-job-search-dev-ai-job-search",
+      "owner": "ai-job-search-dev",
+      "repo": "ai-job-search",
+      "name": "ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "stars": 71886,
+      "last_pushed": "2026-11-12T21:54:17Z",
+      "html_url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add ai-job-search-dev/ai-job-search",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "career",
+        "claude-code",
+        "cover-letter"
+      ]
+    },
+    {
+      "id": "blader-humanizer",
+      "owner": "blader",
+      "repo": "humanizer",
+      "name": "humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "stars": 69426,
+      "last_pushed": "2026-11-10T01:35:15Z",
+      "html_url": "https://github.com/blader/humanizer",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add blader/humanizer",
+      "tags": [
+        "agent-skills",
+        "ai-humanizer",
+        "ai-writing",
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "id": "shanraisshan-claude-code-best-practice",
+      "owner": "shanraisshan",
+      "repo": "claude-code-best-practice",
+      "name": "claude-code-best-practice",
+      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "stars": 69081,
+      "last_pushed": "2026-11-15T06:33:43Z",
+      "html_url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add shanraisshan/claude-code-best-practice",
+      "tags": [
+        "agentic-ai",
+        "agentic-coding",
+        "agentic-engineering",
+        "agentic-workflow",
+        "ai"
+      ]
+    },
+    {
+      "id": "mvanhorn-last30days-skill",
+      "owner": "mvanhorn",
+      "repo": "last30days-skill",
+      "name": "last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars": 67757,
+      "last_pushed": "2026-11-15T19:39:09Z",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add mvanhorn/last30days-skill",
+      "tags": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code"
+      ]
+    },
+    {
+      "id": "cathrynlavery-diagram-design",
+      "owner": "cathrynlavery",
+      "repo": "diagram-design",
+      "name": "diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "stars": 67353,
+      "last_pushed": "2026-11-12T21:14:19Z",
+      "html_url": "https://github.com/cathrynlavery/diagram-design",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add cathrynlavery/diagram-design",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "data-visualization",
+        "diagrams"
+      ]
+    },
+    {
+      "id": "1c7-chinese-independent-developer",
+      "owner": "1c7",
+      "repo": "chinese-independent-developer",
+      "name": "chinese-independent-developer",
+      "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
+      "stars": 62121,
+      "last_pushed": "2026-11-15T15:01:29Z",
+      "html_url": "https://github.com/1c7/chinese-independent-developer",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add 1c7/chinese-independent-developer",
+      "tags": [
+        "china",
+        "indie",
+        "indie-developer"
+      ]
+    },
+    {
+      "id": "ayghri-i-have-adhd",
+      "owner": "ayghri",
+      "repo": "i-have-adhd",
+      "name": "i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "stars": 61280,
+      "last_pushed": "2026-10-19T19:46:23Z",
+      "html_url": "https://github.com/ayghri/i-have-adhd",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add ayghri/i-have-adhd",
+      "tags": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin",
+        "claude-skills",
+        "developer-tools"
+      ]
+    },
+    {
+      "id": "coreyhaines31-marketingskills",
+      "owner": "coreyhaines31",
+      "repo": "marketingskills",
+      "name": "marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "stars": 60538,
+      "last_pushed": "2026-11-11T17:49:23Z",
+      "html_url": "https://github.com/coreyhaines31/marketingskills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add coreyhaines31/marketingskills",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-seo",
+        "claude",
+        "claude-code"
+      ]
+    },
+    {
+      "id": "hkuds-deeptutor",
+      "owner": "HKUDS",
+      "repo": "DeepTutor",
+      "name": "DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "stars": 59451,
+      "last_pushed": "2026-11-15T18:18:05Z",
+      "html_url": "https://github.com/HKUDS/DeepTutor",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add HKUDS/DeepTutor",
+      "tags": [
+        "ai-agents",
+        "ai-tutor",
+        "clawbot",
+        "cli-tool",
+        "deepresearch"
+      ]
+    },
+    {
+      "id": "hkuds-cli-anything",
+      "owner": "HKUDS",
+      "repo": "CLI-Anything",
+      "name": "CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "stars": 58761,
+      "last_pushed": "2026-09-22T02:01:29Z",
+      "html_url": "https://github.com/HKUDS/CLI-Anything",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add HKUDS/CLI-Anything",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "hesreallyhim-awesome-claude-code",
+      "owner": "hesreallyhim",
+      "repo": "awesome-claude-code",
+      "name": "awesome-claude-code",
+      "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+      "stars": 58070,
+      "last_pushed": "2026-11-15T18:07:14Z",
+      "html_url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "license": "NOASSERTION",
+      "install_method": "npx",
+      "command": "npx skills add hesreallyhim/awesome-claude-code",
+      "tags": [
+        "agent-skills",
+        "agentic-code",
+        "agentic-coding",
+        "ai-workflow-optimization",
+        "ai-workflows"
+      ]
+    },
+    {
+      "id": "k-dense-ai-scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "repo": "scientific-agent-skills",
+      "name": "scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "stars": 57300,
+      "last_pushed": "2026-11-09T09:17:48Z",
+      "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add K-Dense-AI/scientific-agent-skills",
+      "tags": [
+        "agent-skills",
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics",
+        "claude"
+      ]
+    },
+    {
+      "id": "emilkowalski-skills",
+      "owner": "emilkowalski",
+      "repo": "skills",
+      "name": "skills",
+      "description": "Skills for Designers and Engineers.",
+      "stars": 57161,
+      "last_pushed": "2026-11-15T12:42:50Z",
+      "html_url": "https://github.com/emilkowalski/skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add emilkowalski/skills",
+      "tags": [
+        "agent-skills",
+        "animation",
+        "claude-code",
+        "codex",
+        "cursor"
+      ]
+    },
+    {
+      "id": "imbad0202-academic-research-skills",
+      "owner": "Imbad0202",
+      "repo": "academic-research-skills",
+      "name": "academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "stars": 57015,
+      "last_pushed": "2026-11-15T04:27:28Z",
+      "html_url": "https://github.com/Imbad0202/academic-research-skills",
+      "license": "NOASSERTION",
+      "install_method": "npx",
+      "command": "npx skills add Imbad0202/academic-research-skills",
+      "tags": [
+        "academic-pipeline",
+        "academic-writing",
+        "ai-research",
+        "claude",
+        "claude-code"
+      ]
+    },
+    {
+      "id": "voltagent-awesome-openclaw-skills",
+      "owner": "VoltAgent",
+      "repo": "awesome-openclaw-skills",
+      "name": "awesome-openclaw-skills",
+      "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
+      "stars": 53793,
+      "last_pushed": "2026-10-30T13:21:07Z",
+      "html_url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add VoltAgent/awesome-openclaw-skills",
+      "tags": [
+        "agent-skills",
+        "awesome",
+        "awesome-list",
+        "awesome-lists",
+        "clawd"
+      ]
+    },
+    {
+      "id": "yuan1z0825-nature-skills",
+      "owner": "Yuan1z0825",
+      "repo": "nature-skills",
+      "name": "nature-skills",
+      "description": "符合nature论文学术表达和科研绘图的Skill",
+      "stars": 53640,
+      "last_pushed": "2026-11-13T02:24:21Z",
+      "html_url": "https://github.com/Yuan1z0825/nature-skills",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add Yuan1z0825/nature-skills",
+      "tags": [
+        "codex-skills",
+        "nature",
+        "nature-skills"
+      ]
+    },
+    {
+      "id": "cherryhq-cherry-studio",
+      "owner": "CherryHQ",
+      "repo": "cherry-studio",
+      "name": "cherry-studio",
+      "description": "Your AI workspace for models, agents, and productivity.",
+      "stars": 53542,
+      "last_pushed": "2026-11-15T16:11:22Z",
+      "html_url": "https://github.com/CherryHQ/cherry-studio",
+      "license": "AGPL-3.0",
+      "install_method": "npx",
+      "command": "npx skills add CherryHQ/cherry-studio",
+      "tags": [
+        "agent-skills",
+        "agent-workspace",
+        "agentic-workspace",
+        "ai-agents",
+        "ai-models"
+      ]
+    },
+    {
+      "id": "obsidianmd-obsidian-skills",
+      "owner": "obsidianmd",
+      "repo": "obsidian-skills",
+      "name": "obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "stars": 52792,
+      "last_pushed": "2026-11-11T16:12:33Z",
+      "html_url": "https://github.com/obsidianmd/obsidian-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add obsidianmd/obsidian-skills",
+      "tags": [
+        "agents",
+        "agentskills",
+        "bases",
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "id": "alibaba-open-code-review",
+      "owner": "alibaba",
+      "repo": "open-code-review",
+      "name": "open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars": 51914,
+      "last_pushed": "2026-11-15T02:41:14Z",
+      "html_url": "https://github.com/alibaba/open-code-review",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add alibaba/open-code-review",
+      "tags": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant",
+        "harness"
+      ]
+    },
+    {
+      "id": "sickn33-agentic-awesome-skills",
+      "owner": "sickn33",
+      "repo": "agentic-awesome-skills",
+      "name": "agentic-awesome-skills",
+      "description": "2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
+      "stars": 49755,
+      "last_pushed": "2026-11-15T18:45:22Z",
+      "html_url": "https://github.com/sickn33/agentic-awesome-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add sickn33/agentic-awesome-skills",
+      "tags": [
+        "agent-skills",
+        "agentic-skills",
+        "ai-agent-skills",
+        "ai-agents",
+        "ai-coding"
+      ]
+    },
+    {
+      "id": "deusdata-codebase-memory-mcp",
+      "owner": "DeusData",
+      "repo": "codebase-memory-mcp",
+      "name": "codebase-memory-mcp",
+      "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
+      "stars": 48682,
+      "last_pushed": "2026-11-14T22:03:40Z",
+      "html_url": "https://github.com/DeusData/codebase-memory-mcp",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add DeusData/codebase-memory-mcp",
+      "tags": [
+        "aider",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-intelligence"
+      ]
+    },
+    {
+      "id": "prisma-orm",
+      "owner": "prisma",
+      "repo": "orm",
+      "name": "orm",
+      "description": "The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.",
+      "stars": 47670,
+      "last_pushed": "2026-11-15T01:13:34Z",
+      "html_url": "https://github.com/prisma/orm",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add prisma/orm",
+      "tags": [
+        "cockroachdb",
+        "database",
+        "javascript",
+        "loggy-core",
+        "loggy-terminal"
+      ]
+    },
+    {
+      "id": "anthropics-claude-plugins-official",
+      "owner": "anthropics",
+      "repo": "claude-plugins-official",
+      "name": "claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "stars": 47380,
+      "last_pushed": "2026-11-14T07:27:28Z",
+      "html_url": "https://github.com/anthropics/claude-plugins-official",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add anthropics/claude-plugins-official",
+      "tags": [
+        "claude-code",
+        "mcp",
+        "skills"
+      ]
+    },
+    {
+      "id": "luongnv89-claude-howto",
+      "owner": "luongnv89",
+      "repo": "claude-howto",
+      "name": "claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "stars": 47252,
+      "last_pushed": "2026-11-14T14:16:13Z",
+      "html_url": "https://github.com/luongnv89/claude-howto",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add luongnv89/claude-howto",
+      "tags": [
+        "claude-code",
+        "guide",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "librechat-ai-librechat",
+      "owner": "LibreChat-AI",
+      "repo": "LibreChat",
+      "name": "LibreChat",
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "stars": 47150,
+      "last_pushed": "2026-11-15T19:09:29Z",
+      "html_url": "https://github.com/LibreChat-AI/LibreChat",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add LibreChat-AI/LibreChat",
+      "tags": [
+        "ai",
+        "anthropic",
+        "artifacts",
+        "aws",
+        "azure"
+      ]
+    },
+    {
+      "id": "reactive-resume-reactive-resume",
+      "owner": "reactive-resume",
+      "repo": "reactive-resume",
+      "name": "reactive-resume",
+      "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+      "stars": 45783,
+      "last_pushed": "2026-11-15T13:42:12Z",
+      "html_url": "https://github.com/reactive-resume/reactive-resume",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add reactive-resume/reactive-resume",
+      "tags": [
+        "agent-skills",
+        "ai",
+        "dsh-plugin",
+        "hacktoberfest",
+        "javascript"
+      ]
+    },
+    {
+      "id": "zhaoxuya520-reverse-skill",
+      "owner": "zhaoxuya520",
+      "repo": "reverse-skill",
+      "name": "reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "stars": 44685,
+      "last_pushed": "2026-11-14T13:59:55Z",
+      "html_url": "https://github.com/zhaoxuya520/reverse-skill",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add zhaoxuya520/reverse-skill",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "thu-maic-openmaic",
+      "owner": "THU-MAIC",
+      "repo": "OpenMAIC",
+      "name": "OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "stars": 43639,
+      "last_pushed": "2026-11-15T14:43:12Z",
+      "html_url": "https://github.com/THU-MAIC/OpenMAIC",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add THU-MAIC/OpenMAIC",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "agno-agi-agno",
+      "owner": "agno-agi",
+      "repo": "agno",
+      "name": "agno",
+      "description": "The self-managing agent platform",
+      "stars": 43200,
+      "last_pushed": "2026-11-15T17:46:12Z",
+      "html_url": "https://github.com/agno-agi/agno",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add agno-agi/agno",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "developer-tools",
+        "python"
+      ]
+    },
+    {
+      "id": "wshobson-agents",
+      "owner": "wshobson",
+      "repo": "agents",
+      "name": "agents",
+      "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.",
+      "stars": 42557,
+      "last_pushed": "2026-11-09T01:08:33Z",
+      "html_url": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add wshobson/agents",
+      "tags": [
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "anthropic",
+        "antigravity"
+      ]
+    },
+    {
+      "id": "github-awesome-copilot",
+      "owner": "github",
+      "repo": "awesome-copilot",
+      "name": "awesome-copilot",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "stars": 41181,
+      "last_pushed": "2026-11-14T20:42:30Z",
+      "html_url": "https://github.com/github/awesome-copilot",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add github/awesome-copilot",
+      "tags": [
+        "agent-skills",
+        "agents",
+        "ai",
+        "awesome",
+        "custom-agents"
+      ]
+    },
+    {
+      "id": "datalab-to-marker",
+      "owner": "datalab-to",
+      "repo": "marker",
+      "name": "marker",
+      "description": "Convert PDF to markdown + JSON quickly with high accuracy",
+      "stars": 40926,
+      "last_pushed": "2026-11-14T04:35:23Z",
+      "html_url": "https://github.com/datalab-to/marker",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add datalab-to/marker",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "yeachan-heo-oh-my-claudecode",
+      "owner": "Yeachan-Heo",
+      "repo": "oh-my-claudecode",
+      "name": "oh-my-claudecode",
+      "description": "Teams-first Multi-agent orchestration for Claude Code",
+      "stars": 40844,
+      "last_pushed": "2026-11-14T06:29:09Z",
+      "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add Yeachan-Heo/oh-my-claudecode",
+      "tags": [
+        "agentic-coding",
+        "ai-agents",
+        "automation",
+        "claude",
+        "claude-code"
+      ]
+    },
+    {
+      "id": "vercel-labs-skills",
+      "owner": "vercel-labs",
+      "repo": "skills",
+      "name": "skills",
+      "description": "The open agent skills tool - npx skills",
+      "stars": 39491,
+      "last_pushed": "2026-11-12T23:25:25Z",
+      "html_url": "https://github.com/vercel-labs/skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add vercel-labs/skills",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "alchaincyf-nuwa-skill",
+      "owner": "alchaincyf",
+      "repo": "nuwa-skill",
+      "name": "nuwa-skill",
+      "description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
+      "stars": 38347,
+      "last_pushed": "2026-11-15T05:31:03Z",
+      "html_url": "https://github.com/alchaincyf/nuwa-skill",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add alchaincyf/nuwa-skill",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills"
+      ]
+    },
+    {
+      "id": "virgiliojr94-book-to-skill",
+      "owner": "virgiliojr94",
+      "repo": "book-to-skill",
+      "name": "book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "stars": 37970,
+      "last_pushed": "2026-11-08T21:22:31Z",
+      "html_url": "https://github.com/virgiliojr94/book-to-skill",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add virgiliojr94/book-to-skill",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "book-to-skill",
+        "context-engineering",
+        "document-processing"
+      ]
+    },
+    {
+      "id": "voltagent-awesome-agent-skills",
+      "owner": "VoltAgent",
+      "repo": "awesome-agent-skills",
+      "name": "awesome-agent-skills",
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "stars": 37209,
+      "last_pushed": "2026-11-15T18:23:24Z",
+      "html_url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add VoltAgent/awesome-agent-skills",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "awesome-list",
+        "claude-code",
+        "claude-code-skills"
+      ]
+    },
+    {
+      "id": "vercel-agent-skills",
+      "owner": "vercel-labs",
+      "repo": "agent-skills",
+      "install_method": "npx",
+      "command": "npx skills add vercel-labs/agent-skills",
+      "tags": [
+        "web",
+        "nextjs",
+        "react"
+      ],
+      "name": "agent-skills",
+      "description": "Vercel's official collection of agent skills",
+      "stars": 34113,
+      "last_pushed": "2026-11-12T14:09:10Z",
+      "html_url": "https://github.com/vercel-labs/agent-skills",
+      "license": "MIT"
+    },
+    {
+      "id": "davila7-claude-code-templates",
+      "owner": "davila7",
+      "repo": "claude-code-templates",
+      "name": "claude-code-templates",
+      "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
+      "stars": 33748,
+      "last_pushed": "2026-11-15T18:33:54Z",
+      "html_url": "https://github.com/davila7/claude-code-templates",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add davila7/claude-code-templates",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "anthropic",
+        "anthropic-claude",
+        "claude"
+      ]
+    },
+    {
+      "id": "topoteretes-cognee",
+      "owner": "topoteretes",
+      "repo": "cognee",
+      "name": "cognee",
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
+      "stars": 33331,
+      "last_pushed": "2026-11-15T18:20:52Z",
+      "html_url": "https://github.com/topoteretes/cognee",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add topoteretes/cognee",
+      "tags": [
+        "agent-memory",
+        "agent-skills",
+        "ai",
+        "ai-agents",
+        "ai-memory"
+      ]
+    },
+    {
+      "id": "googleworkspace-cli",
+      "owner": "googleworkspace",
+      "repo": "cli",
+      "name": "cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "stars": 32330,
+      "last_pushed": "2026-11-03T01:37:22Z",
+      "html_url": "https://github.com/googleworkspace/cli",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add googleworkspace/cli",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "cli",
+        "discovery-api"
+      ]
+    },
+    {
+      "id": "alirezarezvani-claude-skills",
+      "owner": "alirezarezvani",
+      "repo": "claude-skills",
+      "name": "claude-skills",
+      "description": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "stars": 29849,
+      "last_pushed": "2026-11-12T10:35:06Z",
+      "html_url": "https://github.com/alirezarezvani/claude-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add alirezarezvani/claude-skills",
+      "tags": [
+        "agent-plugins",
+        "agent-skills",
+        "agentic-ai",
+        "ai-coding-agent",
+        "anthropic-claude"
+      ]
+    },
+    {
+      "id": "alchaincyf-huashu-design",
+      "owner": "alchaincyf",
+      "repo": "huashu-design",
+      "name": "huashu-design",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "stars": 29571,
+      "last_pushed": "2026-11-10T00:16:14Z",
+      "html_url": "https://github.com/alchaincyf/huashu-design",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add alchaincyf/huashu-design",
+      "tags": [
+        "agent-skills",
+        "ai-design",
+        "animation",
+        "claude-code",
+        "claude-code-skills"
+      ]
+    },
+    {
+      "id": "othmanadi-planning-with-files",
+      "owner": "OthmanAdi",
+      "repo": "planning-with-files",
+      "name": "planning-with-files",
+      "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
+      "stars": 28074,
+      "last_pushed": "2026-11-11T20:55:30Z",
+      "html_url": "https://github.com/OthmanAdi/planning-with-files",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add OthmanAdi/planning-with-files",
+      "tags": [
+        "agent-skills",
+        "autonomous-agents",
+        "claude",
+        "claude-code",
+        "claude-code-skills"
+      ]
+    },
+    {
+      "id": "phuryn-pm-skills",
+      "owner": "phuryn",
+      "repo": "pm-skills",
+      "name": "pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "stars": 28011,
+      "last_pushed": "2026-11-08T23:10:04Z",
+      "html_url": "https://github.com/phuryn/pm-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add phuryn/pm-skills",
+      "tags": [
+        "agent-skill-repository",
+        "agent-skills",
+        "agentic-skills",
+        "claude-code-marketplace",
+        "claude-code-plugins"
+      ]
+    },
+    {
+      "id": "yikart-aitoearn",
+      "owner": "yikart",
+      "repo": "AiToEarn",
+      "name": "AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "stars": 27956,
+      "last_pushed": "2026-11-12T07:35:19Z",
+      "html_url": "https://github.com/yikart/AiToEarn",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add yikart/AiToEarn",
+      "tags": [
+        "agent-skills",
+        "auto-publish",
+        "codex-skills",
+        "douyin",
+        "douyin-api"
+      ]
+    },
+    {
+      "id": "jimliu-baoyu-skills",
+      "owner": "JimLiu",
+      "repo": "baoyu-skills",
+      "name": "baoyu-skills",
+      "description": "Açıklama bulunmuyor.",
+      "stars": 27565,
+      "last_pushed": "2026-11-06T17:20:33Z",
+      "html_url": "https://github.com/JimLiu/baoyu-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add JimLiu/baoyu-skills",
+      "tags": [
+        "agent-skills",
+        "claude-skills",
+        "codex-skills",
+        "openclaw-skills"
+      ]
+    },
+    {
+      "id": "agentskills-agentskills",
+      "owner": "agentskills",
+      "repo": "agentskills",
+      "name": "agentskills",
+      "description": "Specification and documentation for Agent Skills",
+      "stars": 27313,
+      "last_pushed": "2026-11-04T19:47:27Z",
+      "html_url": "https://github.com/agentskills/agentskills",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add agentskills/agentskills",
+      "tags": [
+        "agent-skills"
+      ]
+    },
+    {
+      "id": "titanwings-distilly",
+      "owner": "titanwings",
+      "repo": "distilly",
+      "name": "distilly",
+      "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
+      "stars": 26587,
+      "last_pushed": "2026-10-13T05:57:17Z",
+      "html_url": "https://github.com/titanwings/distilly",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add titanwings/distilly",
+      "tags": [
+        "agent-skills",
+        "agentic-ai",
+        "ai-agent",
+        "ai-agents",
+        "ai-assistants"
+      ]
+    },
+    {
+      "id": "nvidia-skillspector",
+      "owner": "NVIDIA",
+      "repo": "SkillSpector",
+      "name": "SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "stars": 26198,
+      "last_pushed": "2026-11-14T04:49:48Z",
+      "html_url": "https://github.com/NVIDIA/SkillSpector",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add NVIDIA/SkillSpector",
+      "tags": [
+        "agent-security",
+        "agent-skills",
+        "agentic-ai",
+        "ai-security",
+        "claude-code"
+      ]
+    },
+    {
+      "id": "pascalorg-editor",
+      "owner": "pascalorg",
+      "repo": "editor",
+      "name": "editor",
+      "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
+      "stars": 25526,
+      "last_pushed": "2026-11-14T06:42:01Z",
+      "html_url": "https://github.com/pascalorg/editor",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add pascalorg/editor",
+      "tags": [
+        "3d",
+        "3d-scanning",
+        "aec",
+        "agent-skills",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "nocobase-nocobase",
+      "owner": "nocobase",
+      "repo": "nocobase",
+      "name": "nocobase",
+      "description": "NocoBase is the open-source platform for building, running, and evolving business systems with AI. Agents write the code and do the work, NocoBase provides the foundation and governance, and people make the decisions.",
+      "stars": 24933,
+      "last_pushed": "2026-11-15T15:16:30Z",
+      "html_url": "https://github.com/nocobase/nocobase",
+      "license": "NOASSERTION",
+      "install_method": "npx",
+      "command": "npx skills add nocobase/nocobase",
+      "tags": [
+        "admin-dashboard",
+        "agent-skills",
+        "agentic-ai",
+        "ai-agent",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "citrolabs-ego-lite",
+      "owner": "citrolabs",
+      "repo": "ego-lite",
+      "name": "ego-lite",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "stars": 22954,
+      "last_pushed": "2026-11-15T04:23:45Z",
+      "html_url": "https://github.com/citrolabs/ego-lite",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add citrolabs/ego-lite",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "browser",
+        "browser-automation"
+      ]
+    },
+    {
+      "id": "kkkkhazix-khazix-skills",
+      "owner": "KKKKhazix",
+      "repo": "khazix-skills",
+      "name": "khazix-skills",
+      "description": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
+      "stars": 22273,
+      "last_pushed": "2026-11-15T14:19:32Z",
+      "html_url": "https://github.com/KKKKhazix/khazix-skills",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add KKKKhazix/khazix-skills",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "id": "latent-spaces-brag",
+      "owner": "latent-spaces",
+      "repo": "brag",
+      "name": "brag",
+      "description": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.",
+      "stars": 21592,
+      "last_pushed": "2026-11-15T17:07:46Z",
+      "html_url": "https://github.com/latent-spaces/brag",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add latent-spaces/brag",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "claude-skills",
+        "hyperframes",
+        "launch-video"
+      ]
+    },
+    {
+      "id": "vincentwei1021-video-shotcraft",
+      "owner": "Vincentwei1021",
+      "repo": "video-shotcraft",
+      "name": "video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "stars": 19974,
+      "last_pushed": "2026-11-15T13:34:28Z",
+      "html_url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add Vincentwei1021/video-shotcraft",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-video",
+        "claude-code",
+        "claude-code-skills"
+      ]
+    },
+    {
+      "id": "google-elephant-goldfish-model",
+      "owner": "google",
+      "repo": "elephant-goldfish-model",
+      "name": "elephant-goldfish-model",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "stars": 19651,
+      "last_pushed": "2026-11-15T18:47:38Z",
+      "html_url": "https://github.com/google/elephant-goldfish-model",
+      "license": "Apache-2.0",
+      "install_method": "npx",
+      "command": "npx skills add google/elephant-goldfish-model",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "claude-code",
+        "claude-code-plugin"
+      ]
+    },
+    {
+      "id": "microsoft-skillopt",
+      "owner": "microsoft",
+      "repo": "SkillOpt",
+      "name": "SkillOpt",
+      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+      "stars": 19088,
+      "last_pushed": "2026-11-10T20:10:50Z",
+      "html_url": "https://github.com/microsoft/SkillOpt",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add microsoft/SkillOpt",
+      "tags": [
+        "agent-skills",
+        "self-evolving-agents"
+      ]
+    },
+    {
+      "id": "kubesphere-kubesphere",
+      "owner": "kubesphere",
+      "repo": "kubesphere",
+      "name": "kubesphere",
+      "description": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️",
+      "stars": 17081,
+      "last_pushed": "2026-07-15T01:14:39Z",
+      "html_url": "https://github.com/kubesphere/kubesphere",
+      "license": "NOASSERTION",
+      "install_method": "npx",
+      "command": "npx skills add kubesphere/kubesphere",
+      "tags": [
+        "agent-skills",
+        "ai",
+        "cloud-native",
+        "cncf",
+        "devops"
+      ]
+    },
+    {
+      "id": "lemomo-ai-lemo-opuscar",
+      "owner": "lemomo-ai",
+      "repo": "lemo-opuscar",
+      "name": "lemo-opuscar",
+      "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
+      "stars": 16686,
+      "last_pushed": "2026-11-12T11:29:03Z",
+      "html_url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "license": "NOASSERTION",
+      "install_method": "npx",
+      "command": "npx skills add lemomo-ai/lemo-opuscar",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-short-film",
+        "ai-video",
+        "animation"
+      ]
+    },
+    {
+      "id": "dreammis-social-auto-upload",
+      "owner": "dreammis",
+      "repo": "social-auto-upload",
+      "name": "social-auto-upload",
+      "description": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
+      "stars": 16567,
+      "last_pushed": "2026-10-22T18:42:22Z",
+      "html_url": "https://github.com/dreammis/social-auto-upload",
+      "license": "MIT",
+      "install_method": "npx",
+      "command": "npx skills add dreammis/social-auto-upload",
+      "tags": [
+        "agent-skills",
+        "bilibili",
+        "douyin",
+        "tiktok",
+        "xiaohongshu"
+      ]
+    }
+  ]
 }
