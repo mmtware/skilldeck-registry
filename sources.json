@@ -1,0 +1,42 @@
+[
+  {
+    "id": "anthropic-skills",
+    "owner": "anthropics",
+    "repo": "skills",
+    "install_method": "npx",
+    "command": "npx skills add anthropics/skills",
+    "tags": ["official", "claude", "general"]
+  },
+  {
+    "id": "vercel-agent-skills",
+    "owner": "vercel-labs",
+    "repo": "agent-skills",
+    "install_method": "npx",
+    "command": "npx skills add vercel-labs/agent-skills",
+    "tags": ["web", "nextjs", "react"]
+  },
+  {
+    "id": "obra-superpowers",
+    "owner": "obra",
+    "repo": "superpowers",
+    "install_method": "npx",
+    "command": "npx skills add obra/superpowers",
+    "tags": ["workflow", "tdd", "planning"]
+  },
+  {
+    "id": "github-spec-kit",
+    "owner": "github",
+    "repo": "spec-kit",
+    "install_method": "uvx",
+    "command": "uvx --from git+https://github.com specify init",
+    "tags": ["official", "spec-driven", "architecture"]
+  },
+  {
+    "id": "agent-skill-manager",
+    "owner": "mxyhi",
+    "repo": "agent-skill-manager",
+    "install_method": "uvx",
+    "command": "uvx --from agent-skill-manager sm list",
+    "tags": ["cli", "python", "manager"]
+  }
+]
