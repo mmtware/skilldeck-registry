@@ -12,19 +12,20 @@ def run_gh_api(endpoint):
 def discover_github_skills():
     queries = [
         "topic:agent-skills stars:>=10",
+        "topic:claude-skills stars:>=10",
+        "topic:claude-code-plugin stars:>=20",
         "\"SKILL.md\" in:readme,path stars:>=25"
     ]
     discovered = {}
     
     for q in queries:
         try:
-            # gh api -X GET search/repositories -f q="..." -f sort=stars ...
             cmd = [
                 "gh", "api", "-X", "GET", "search/repositories",
                 "-f", f"q={q}",
                 "-f", "sort=stars",
                 "-f", "order=desc",
-                "-f", "per_page=50"
+                "-f", "per_page=100"
             ]
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
             res = json.loads(result.stdout)
